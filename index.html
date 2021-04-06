@@ -6,233 +6,235 @@
 <html lang="en">
 
 <html>
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" href="css/override.css"/>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/override.css"/>
 
-      <title>RNS Dining Hall Menu</title>
-      <link rel="icon" href="calendar.png">
+    <title>RNS Dining Hall Menu</title>
+    <link rel="icon" href="calendar.png">
 
-    </head>
+  </head>
 
-    <body>
-      <!-- navigation bar -->
-      <div class="topnav">
-        <a class="logo" href="https://www.rns.cc/">
-          <img 
-          title="RNS logo" src="rothesay_logo_one_line.png" 
-          alt="RNS logo" width=25% height=25%>
-        </a>
-        <div class="container topnav">
-          <a class="tablink" onclick="openPage('homeMenu')" id="defaultOpen">Home</a>
-          <a class="tablink" onclick="openPage('reportErrorTab')">Report Error</a>
-          <a class="tablink" onclick="openPage('aboutTab')">About</a>
-        </div>
+  <body>
+    <!-- navigation bar -->
+    <div class="topnav">
+      <a class="logo" href="https://www.rns.cc/">
+        <img 
+        title="RNS logo" src="rothesay_logo_one_line.png" 
+        alt="RNS logo" width=25% height=25%>
+      </a>
+      <div class="container topnav">
+        <a class="tablink" onclick="openPage('homeMenu')" id="defaultOpen">Home</a>
+        <a class="tablink" onclick="openPage('reportErrorTab')">Report Error</a>
+        <a class="tablink" onclick="openPage('aboutTab')">About</a>
       </div>
+    </div>
 
-      <!-- home tab -->
-      &nbsp;
-      <div id="homeMenu" class="tabcontent">
-        <div id="table" title="Menu" class="container">
-          <!-- title-->
-          <div class="row text-center column">
-            <div title="This Week's Dining Hall Menu" class="col-lg">
-              <h1 id = 'firsth1' class="rnsNavy">
-                <b>
-                  This Week's 
-                  <span class="rnsGreen">Dining Hall Menu</span>
-                </b>
-              </h1>
-            </div>
-          </div>
-          <!-- last updated -->
-          <div title="Last updated">
-            <h5 class="text-right">
-              Last updated: 3/31/2021
-            </h5>
-          </div>
-          <!-- table -->
-          <table title="Menu" class="table table-sm">
-            <thead>
-              <tr class="menuTop">
-                <th title="Date" scope="col">Date</th>
-                <th title="Breakfast" scope="col">Breakfast</th>
-                <th title="Lunch" scope="col">Lunch</th>
-                <th title="Supper" scope="col">Supper</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th class="menuLeft" title="Monday" scope="row">Monday</th>
-                <td class="menuMenu" title="Monday's breakfast">Freshly Made Omelettes Freshly Made Omelettes, Fresh Egg Choices, Home-fried Potatoes, Breakfast Meats</td>
-                <td class="menuMenu" title="Monday's lunch">Cacciatore Rotini, Vegetable Medley; Vegetarian: Hearty Vegetable Sauce</td>
-                <td class="menuMenu" title="Monday's supper">BBQ Pork Chops, Roasted Sweet Potatoes, Green Beans</td>
-              </tr>
-              <tr>
-                <th class="menuLeft" title="Tuesday" scope="row">Tuesday</th>
-                <td class="menuMenu" title="Tuesday's breakfast">Freshly Made Omelettes Freshly Made Omelettes, Fresh Egg Choices, Home-fried Potatoes, Breakfast Meats</td>
-                <td class="menuMenu" title="Tuesday's lunch">Quesadilla, Seasoned Rice; Vegetarian: Black bean Quesadilla</td>
-                <td class="menuMenu" title="Tuesday's supper">Chicken, Buttered Egg Noodles, Carrots</td>
-              </tr>
-              <tr>
-                <th class="menuLeft" title="Wednesday" scope="row">Wednesday</th>
-                <td class="menuMenu" title="Wednesday's breakfast">Freshly Made Omelettes Freshly Made Omelettes, Fresh Egg Choices, Home-fried Potatoes, Breakfast Meats</td>
-                <td class="menuMenu" title="Wednesday's lunch">Perogies, Sausage, Fried Onions, Mixed Vegetables</td>
-                <td class="menuMenu" title="Wednesday's supper">Steak Sandwich, Sautéed Mushrooms & Onions</td>
-              </tr>
-              <tr>
-                <th class="menuLeft" title="Thursday" scope="row">Thursday</th>
-                <td class="menuMenu" title="Thursday's breakfast">Freshly Made Omelettes Freshly Made Omelettes, Fresh Egg Choices, Home-fried Potatoes, Breakfast Meats</td>
-                <td class="menuMenu" title="Thursday's lunch">Beef Stir Fry, Steamed Noodles, Sautéed Peppers, Onions, Broccoli; Vegetarian: Portobello Stir Fry</td>
-                <td class="menuMenu" title="Thursday's supper">Lasagna, Garlic Rolls</td>
-              </tr>
-              <tr>
-                <th class="menuLeft" title="Friday" scope="row">Friday</th>
-                <td class="menuMenu" title="Friday's brakfast">Freshly Made Omelettes Freshly Made Omelettes, Fresh Egg Choices, Home-fried Potatoes, Breakfast Meats</td>
-                <td class="menuMenu" title="Friday's lunch">Cheese & Tomato Soup, Carrot, Broccoli & Tomato Cup</td>
-                <td class="menuMenu" title="Firday's supper">Panko Crusted Haddock, Seasoned Rice, Broccoli</td>
-              </tr>
-              <tr>
-                <th class="menuLeft" title="Saturday" scope="row">Saturday</th>
-                <td class="menuMenu" title="Saturday's breakfast">Freshly Made Omelettes Freshly Made Omelettes, Fresh Egg Choices, Home-fried Potatoes, Breakfast Meats</td>
-                <td class="menuMenu" title="Saturday's lunch">Savoury Selection of Grilled, Baked, & Freshly Prepared Items</td>
-                <td class="menuMenu" title="Saturday's supper">Party: Various Meat and Cheese Pizzas, Salad</td>
-              </tr>
-              <tr>
-                <th class="menuLeft" title="Sunday" scope="row">Sunday</th>
-                <td class="menuMenu" title="Sunday's breakfast">Freshly Made Omelettes Freshly Made Omelettes, Fresh Egg Choices, Home-fried Potatoes, Breakfast Meats</td>
-                <td class="menuMenu" title="Sunday's lunch">Chef’s Savoury Selection of Grilled, Baked, & Freshly Prepared Items</td>
-                <td class="menuMenu" title="Sunday's supper">Marinated Chicken Quarter, Sage-Seasoned Sweet Potatoes, Carrots</td>
-              </tr>
-            </tbody>
-          </table>
-          <p>&nbsp;</p>
-        </div>
-      </div>
-
-      <!-- about tab -->
-      &nbsp;
-      <div id="aboutTab" class="tabcontent good-height">
-        <div class="container text-center">
-          <!-- title-->
-          <div class="text-center">
-            <div title="About This Website" class="col-lg">
-              <h1 id = 'firsth1' style="color:rgb(0,135,30); font-family:Georgia, serif; font-size: 40px;">
-                <b>
-                About This Website
-                </b>
-              </h1>
-            </div>
-            &nbsp;
-            <div class="row">
-              <div class="col-3"></div>
-              <div class="col-5">
-                <p class="aboutLink" style="font-size: 20px;">
-                  All information on this website is sourced from the
-                  <a href="https://rns.myschoolapp.com/">
-                     Rothesay Netherwood School portal.
-                  </a>
-                </p>
-              </div>
-              <div class="col-3"></div>
-            </div>
+    <!-- home tab -->
+    &nbsp;
+    <div id="homeMenu" class="tabcontent">
+      <div id="table" title="Menu" class="container">
+        <!-- title-->
+        <div class="row text-center column">
+          <div title="This Week's Dining Hall Menu" class="col-lg">
+            <h1 id = 'firsth1' class="rnsNavy">
+              <b>
+                This Week's 
+                <span class="rnsGreen">Dining Hall Menu</span>
+              </b>
+            </h1>
           </div>
         </div>
-      </div>
-
-      <!-- report tab -->
-      &nbsp;
-      <div id="reportErrorTab" class="tabcontent good-height">
-        <div class="container text-center">
-          <div class="text-center">
-            <!-- title-->
-            <div title="Report An Error" class="col-lg">
-              <h1 id = 'firsth1' style="color:rgb(0,135,30); font-family:Georgia, serif; font-size:40px;">
-                <b>
-                Report An Error
-                </b>
-              </h1>
-            </div>
-            &nbsp;
-            <div class="row">
-              <div class="col-3"></div>
-              <div class="col-5">
-                <p style="font-size: 20px;">
-                  Help enhance the website by reporting an error!
-                </p>
-              </div>
-              <div class="col-3"></div>
-            </div>
-            <div class="row">
-              <div class="col-3"></div>
-              <div class="col-5">
-                <p style="font-size: 15px;">
-                  ...or tell us anything else we can improve on :D
-                </p>
-              </div>
-              <div class="col-3"></div>
-            </div>
-            <div>
-              &nbsp;
-              &nbsp;
-              &nbsp;
-              &nbsp;
-              &nbsp;
-              &nbsp;
-              &nbsp;
-              &nbsp;
-            </div>
-            <div class="row">
-              <div class="col-3"></div>
-              <div class="col-5">
-                <button title="Link to Google Forms" class="buttonG">
-                  <a style="text-decoration: none; color: white" href="https://docs.google.com/forms/d/12UsFQh3Yf2y4xxtPnreN89oZYLry7OwOWYRuf4zy6jM/edit?usp=sharing" target="_blank">
-                    Link to Google Forms
-                  </a>
-                </button>
-              </div>
-              <div class="col-3"></div>
-            </div>
-          </div>
+        <!-- last updated -->
+        <div title="Last updated">
+          <h5 class="text-right">
+            Last updated: 3/31/2021
+          </h5>
         </div>
-        <p>&nbsp;</p>
+        <!-- table -->
+        <table title="Menu" class="table table-sm">
+          <thead>
+            <tr class="menuTop">
+              <th title="Date" scope="col">Date</th>
+              <th title="Breakfast" scope="col">Breakfast</th>
+              <th title="Lunch" scope="col">Lunch</th>
+              <th title="Supper" scope="col">Supper</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="menuLeft" title="Monday" scope="row">Monday</th>
+              <td class="menuMenu" title="Monday's breakfast">Freshly Made Omelettes Freshly Made Omelettes, Fresh Egg Choices, Home-fried Potatoes, Breakfast Meats</td>
+              <td class="menuMenu" title="Monday's lunch">Bowtie Pasta & Meat Sauce, Garlic Rolls, Zucchini; Vegetarian: Hearty Veggie Sauce</td>
+              <td class="menuMenu" title="Monday's supper">Roast Beef Dinner, Potatoes, Mixed Vegetables, Gravy</td>
+            </tr>
+            <tr>
+              <th class="menuLeft" title="Tuesday" scope="row">Tuesday</th>
+              <td class="menuMenu" title="Tuesday's breakfast">Freshly Made Omelettes Freshly Made Omelettes, Fresh Egg Choices, Home-fried Potatoes, Breakfast Meats</td>
+              <td class="menuMenu" title="Tuesday's lunch">Sweet & Sour Pork with Rice, Peppers & Broccoli; Vegetarian: Sweet & Sour Tofu</td>
+              <td class="menuMenu" title="Tuesday's supper">BBQ Chicken, Buttered Egg Noodles, Carrot Coins</td>
+            </tr>
+            <tr>
+              <th class="menuLeft" title="Wednesday" scope="row">Wednesday</th>
+              <td class="menuMenu" title="Wednesday's breakfast">Freshly Made Omelettes Freshly Made Omelettes, Fresh Egg Choices, Home-fried Potatoes, Breakfast Meats</td>
+              <td class="menuMenu" title="Wednesday's lunch">Mashed Potato & Chicken Bowl with Corn; Vegetarian: Tofu Nuggets</td>
+              <td class="menuMenu" title="Wednesday's supper">Roast Pork, Roasted Sweet Potatoes, Dilled Peas, Gravy</td>
+            </tr>
+            <tr>
+              <th class="menuLeft" title="Thursday" scope="row">Thursday</th>
+              <td class="menuMenu" title="Thursday's breakfast">Freshly Made Omelettes Freshly Made Omelettes, Fresh Egg Choices, Home-fried Potatoes, Breakfast Meats</td>
+              <td class="menuMenu" title="Thursday's lunch">Pork Souvlaki, Rice, Sauteed Peppers & Onions, Tzatziki & Pita Bread</td>
+              <td class="menuMenu" title="Thursday's supper">Beef & Broccoli Chow Mein Noodles, Napa Cabbage & Julienned Carrots</td>
+            </tr>
+            <tr>
+              <th class="menuLeft" title="Friday" scope="row">Friday</th>
+              <td class="menuMenu" title="Friday's brLemon Pepper Baked Trout Filet, Rice, Broccoli & Lemoneakfast">Freshly Made Omelettes Freshly Made Omelettes, Fresh Egg Choices, Home-fried Potatoes, Breakfast Meats</td>
+              <td class="menuMenu" title="Friday's lunch">Chicken Pot Pie with Mixed Vegetables; Vegetarian: Veggie Pot Pie</td>
+              <td class="menuMenu" title="Firday's supper"></td>
+            </tr>
+            <tr>
+              <th class="menuLeft" title="Saturday" scope="row">Saturday</th>
+              <td class="menuMenu" title="Saturday's breakfast">Freshly Made Omelettes Freshly Made Omelettes, Fresh Egg Choices, Home-fried Potatoes, Breakfast Meats</td>
+              <td class="menuMenu" title="Saturday's brunch”>Chef’s Savoury Selection of Grilled, Baked, & Freshly Prepared Items</td>
+              <td class="menuMenu" title="Saturday's supper">Fried Chicken, Roasted Potatoes, Broccoli & Cauliflower</td>
+            </tr>
+            <tr>
+              <th class="menuLeft" title="Sunday" scope="row">Sunday</th>
+              <td class="menuMenu" title="Sunday's breakfast">Freshly Made Omelettes Freshly Made Omelettes, Fresh Egg Choices, Home-fried Potatoes, Breakfast Meats</td>
+              <td class="menuMenu" title="Sunday's brunch”>Chef’s Savoury Selection of Grilled, Baked, & Freshly Prepared Items</td>
+              <td class="menuMenu" title="Sunday's supper"> Pork Schnitzel, Mashed Potato Speckbohnen (Green Beans with Bacon/Ham)</td>
+            </tr>
+          </tbody>
+        </table>
         <p>&nbsp;</p>
       </div>
+    </div>
 
-      <script>
-        // function to open different tabs on website
-        // open page by page name aka its id
-        function openPage(pageName) {
-          var i, tabcontent, tablinks;
-          // each page is classified as 'tabcontent'
-          tabcontent = document.getElementsByClassName("tabcontent");
-          // hide all tabcontent elements by default
-          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-          }
-          // show the tab's contents
-          document.getElementById(pageName).style.display = "block";
+    <!-- about tab -->
+    &nbsp;
+    <div id="aboutTab" class="tabcontent good-height">
+      <div class="container text-center">
+        <!-- title-->
+        <div class="text-center">
+          <div title="About This Website" class="col-lg">
+            <h1 id = 'firsth1' style="color:rgb(0,135,30); font-family:Georgia, serif; font-size: 40px;">
+              <b>
+              About This Website
+              </b>
+            </h1>
+          </div>
+          &nbsp;
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-5">
+              <p class="aboutLink" style="font-size: 20px;">
+                All information on this website is sourced from the
+                <a href="https://rns.myschoolapp.com/">
+                    Rothesay Netherwood School portal.
+                </a>
+              </p>
+            </div>
+            <div class="col-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- report tab -->
+    &nbsp;
+    <div id="reportErrorTab" class="tabcontent good-height">
+      <div class="container text-center">
+        <div class="text-center">
+          <!-- title-->
+          <div title="Report An Error" class="col-lg">
+            <h1 id = 'firsth1' style="color:rgb(0,135,30); font-family:Georgia, serif; font-size:40px;">
+              <b>
+              Report An Error
+              </b>
+            </h1>
+          </div>
+          &nbsp;
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-5">
+              <p style="font-size: 20px;">
+                Help enhance the website by reporting an error!
+              </p>
+            </div>
+            <div class="col-3"></div>
+          </div>
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-5">
+              <p style="font-size: 15px;">
+                ...or tell us anything else we can improve on :D
+              </p>
+            </div>
+            <div class="col-3"></div>
+          </div>
+          <div>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+          </div>
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-5">
+              <button title="Link to Google Forms" class="buttonG">
+                <a style="text-decoration: none; color: white" href="https://docs.google.com/forms/d/12UsFQh3Yf2y4xxtPnreN89oZYLry7OwOWYRuf4zy6jM/edit?usp=sharing" target="_blank">
+                  Link to Google Forms
+                </a>
+              </button>
+            </div>
+            <div class="col-3"></div>
+          </div>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+
+    <script>
+      // function to open different tabs on website
+      // open page by page name aka its id
+      function openPage(pageName) {
+        var i, tabcontent, tablinks;
+        // each page is classified as 'tabcontent'
+        tabcontent = document.getElementsByClassName("tabcontent");
+        // hide all tabcontent elements by default
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
         }
-        // get the element with id="defaultOpen" and click on it
-        document.getElementById("defaultOpen").click();
-      </script>
+        // show the tab's contents
+        document.getElementById(pageName).style.display = "block";
+      }
+      // get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
 
-    </body>
+  </body>
 
-    <footer>
-      <div class="container">
-        <div title="contact info">
-          &nbsp;
-          <p class="footerText">
-            Contact: olivia.roh@rns.cc
-          </p>
-          &nbsp;
-        </div>
+  <footer>
+    <div class="container">
+      <div title="contact info">
+        &nbsp;
+        <p class="footerText">
+          Contact: olivia.roh@rns.cc
+        </p>
+        &nbsp;
       </div>
-    </footer>
+    </div>
+  </footer>
+
+<!-- parts of the code was sourced from /jbell4/jbell4.github.io -->
 
 </html>
