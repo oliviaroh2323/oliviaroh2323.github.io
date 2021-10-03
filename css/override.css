@@ -23,7 +23,7 @@ body {
 }
 div.maxsize {
     max.width: 800px;
-    max.height: 300px;
+    max.height: 1000px;
     margin: auto;
 }
 
