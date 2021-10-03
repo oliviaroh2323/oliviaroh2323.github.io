@@ -5,6 +5,7 @@ footer {
     color: white;
 }
 body, html {
+    padding: 0;
     height: 100%;
     margin: 0;
 }
@@ -12,6 +13,7 @@ body, html {
     height: 82%
 }
 body {
+    padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
