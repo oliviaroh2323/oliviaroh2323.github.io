@@ -17,6 +17,11 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+div.a {
+    max.width: 800px;
+    margin: auto;
+}
+
 .footerText {
     margin:0;
     font-family: Georgia, serif;
